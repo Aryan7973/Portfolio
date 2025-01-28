@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App{
+    height: 100rem;
+    background: linear-gradient(180deg, #0f1214, #34495E);
+}
+
+.laptop{
+    height: 88vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 0;
+    left:0;
+    bottom: 0;   
+    display: flex;
+    justify-content: flex-end;
+}
+.laptop div{
+
+    height: 100%;
+    width: 50%;
+    margin-right: 2rem;
+}
